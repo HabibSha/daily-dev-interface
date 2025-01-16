@@ -59,3 +59,24 @@ export const upperSocial = [
     icon: "icon5",
   },
 ];
+
+export const cardData = [
+  {
+    id: 301,
+    title: "Card title",
+    image: "Image1",
+    description: "short desc",
+  },
+  {
+    id: 302,
+    title: "Card title",
+    image: "Image2",
+    description: "short desc",
+  },
+  {
+    id: 303,
+    title: "Card title",
+    image: "Image3",
+    description: "short desc",
+  },
+];
