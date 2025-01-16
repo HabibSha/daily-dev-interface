@@ -1,4 +1,5 @@
 import { Button } from "../../ui/button.tsx";
+import { upperSocial } from "../../../data";
 
 const UpperInterface = () => {
   return (
@@ -9,9 +10,11 @@ const UpperInterface = () => {
         </div>
 
         <div>
-          <div className="bg-[#1a1f26] p-4 rounded-full">
-            <p>Icon</p>
-          </div>
+          {upperSocial.map((item) => (
+            <div key={item.id} className="bg-[#1a1f26] p-4 rounded-full">
+              <p>{item.icon}</p>
+            </div>
+          ))}
           <div className="bg-[#1a1f26] px-4 py-1 rounded-lg mt-2"></div>
         </div>
 

@@ -37,7 +37,7 @@ export const sidebar = [
   },
 ];
 
-export const UpperSocial = [
+export const upperSocial = [
   {
     id: 201,
     icon: "icon1",
